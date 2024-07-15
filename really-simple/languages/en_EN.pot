@@ -1,0 +1,891 @@
+# Copyright (C) 2021 Really Simple Theme
+# This file is distributed under the GNU General Public License v3 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: "
+"Really Simple v1.0.4\n"
+"Report-Msgid-Bugs-To: "
+"Translator Name "
+"<translations@example."
+"com>\n"
+"POT-Creation-Date: "
+"2024-07-05 13:15+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your "
+"Name <you@example.com>\n"
+"Language-Team: Flaubert "
+"Henriques "
+"<henriquesdeveloper@gmail."
+"com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/"
+"plain; charset=UTF-8\n"
+"Content-Transfer-"
+"Encoding: 8bit\n"
+"Plural-Forms: "
+"nplurals=2; plural=n != "
+"1;\n"
+"X-Textdomain-Support: "
+"yesX-Generator: Poedit "
+"1.6.4\n"
+"X-Poedit-SourceCharset: "
+"UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;esc_html_e;"
+"esc_html_x:1,2c;"
+"esc_html__;esc_attr_e;"
+"esc_attr_x:1,2c;"
+"esc_attr__;_ex:1,2c;"
+"_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;"
+"_n:1,2;_n_noop:1,2;"
+"__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit "
+"3.4.4\n"
+"X-Poedit-"
+"SearchPath-0: .\n"
+
+#: 404.php:15
+msgid "Page not found"
+msgstr ""
+
+#: 404.php:19
+msgid ""
+"The page you tried to "
+"access does not exist."
+msgstr ""
+
+#: 404.php:28
+msgid "Back to home"
+msgstr ""
+
+#: archive.php:38
+#: home.php:33
+#: search.php:74
+#: search.php:101
+msgid "Page"
+msgstr ""
+
+#: archive.php:54
+msgid "Back to blog"
+msgstr ""
+
+#: comments.php:31
+#, php-format
+msgctxt "comments title"
+msgid ""
+"One thought on &ldquo;"
+"%s&rdquo;"
+msgstr ""
+
+#: comments.php:37
+#, php-format
+msgctxt "comments title"
+msgid ""
+"%1$s thought on &ldquo;"
+"%2$s&rdquo;"
+msgid_plural ""
+"%1$s thoughts on &ldquo;"
+"%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:75
+msgid ""
+"Comments are closed."
+msgstr ""
+
+#: footer.php:21
+msgid "Sign up"
+msgstr ""
+
+#: footer.php:21
+msgid ""
+"for the latest news and "
+"offers"
+msgstr ""
+
+#: footer.php:44
+msgid "All rights reserved"
+msgstr ""
+
+#: footer.php:47
+msgid "/en/privacy-policy/"
+msgstr ""
+
+#: footer.php:48
+msgid "Privacy Policy"
+msgstr ""
+
+#: footer.php:55
+#: functions.php:127
+msgid "Accessibility tools"
+msgstr ""
+
+#: footer.php:58
+msgid "Accessibility"
+msgstr ""
+
+#: footer.php:76
+msgid ""
+"We respect your privacy"
+msgstr ""
+
+#: footer.php:78
+msgid ""
+"This website uses "
+"cookies or similar "
+"technologies to enhance "
+"your browsing "
+"experience. By "
+"continuing to use our "
+"website you agree to our "
+"<a href=\"/en/privacy-"
+"policy/\">Privacy&nbsp;"
+"Policy</a>."
+msgstr ""
+
+#: footer.php:81
+msgid "Accept"
+msgstr ""
+
+#: footer.php:86
+#: footer.php:87
+msgid "Go to top"
+msgstr ""
+
+#: front-page.php:19
+msgid "Loading"
+msgstr ""
+
+#: front-page.php:52
+msgid ""
+"A one-of-a-kind studio"
+msgstr ""
+
+#: front-page.php:55
+msgid ""
+"We are an art laboratory "
+"specializing in the "
+"design of unique "
+"furniture and "
+"conservation of works of "
+"art, led by Agnieszka "
+"Śniadewicz-Świca. Great "
+"professionals, "
+"experienced craftsmen, "
+"designers and art "
+"historians constitute "
+"the core of "
+"<strong>Square Drop</"
+"strong>. Thanks to our "
+"cooperation with antique "
+"dealers from all over "
+"the world, we offer "
+"original furniture, "
+"thoroughly selected by "
+"experts. Each item we "
+"offer tells a story "
+"because we believe that "
+"the emotional element, "
+"high quality, durability "
+"and individual character "
+"of the designs are an "
+"expression of care for "
+"our planet."
+msgstr ""
+
+#: front-page.php:60
+#: front-page.php:428
+#: front-page.php:437
+msgid "/en/restoration/"
+msgstr ""
+
+#: front-page.php:60
+#: front-page.php:65
+#: front-page.php:70
+#: front-page.php:600
+#: template-parts/content.php:53
+msgid "Learn more"
+msgstr ""
+
+#: front-page.php:62
+#: front-page.php:87
+#: front-page.php:88
+#: front-page.php:365
+msgid "Restoration"
+msgstr ""
+
+#: front-page.php:67
+#: front-page.php:84
+#: front-page.php:85
+#: front-page.php:284
+msgid "Antiques"
+msgstr ""
+
+#: front-page.php:72
+#: front-page.php:81
+#: front-page.php:82
+msgid "Design"
+msgstr ""
+
+#: front-page.php:76
+msgid ""
+"Antiques and furniture "
+"from various collections"
+msgstr ""
+
+#: front-page.php:95
+msgid ""
+"Original collections & "
+"collaborations"
+msgstr ""
+
+#: front-page.php:97
+msgid ""
+"We use our knowledge "
+"about art gained at "
+"antiques markets to "
+"create new furniture "
+"forms that possess the "
+"characteristics of "
+"collectors items. "
+"<i>Future antiques</i>, "
+"high-quality, exclusive, "
+"signed pieces, handmade "
+"to individual order from "
+"top quality materials "
+"that develop a natural "
+"patina over time. The "
+"idea behind "
+"<strong>Square Drop</"
+"strong> is to express "
+"personality through "
+"objects."
+msgstr ""
+
+#: front-page.php:102
+msgid ""
+"Dark furniture from the "
+"Oddity collection"
+msgstr ""
+
+#: front-page.php:108
+msgid "Unique items"
+msgstr ""
+
+#: front-page.php:110
+msgid ""
+"<strong>Square Drop</"
+"strong>, a fine art "
+"conservation lab, is a "
+"company with family "
+"traditions. We use the "
+"experience, we have "
+"gained over the years, "
+"to carry out "
+"conservation works. "
+"Using our history of art "
+"knowledge, as well as, "
+"many international "
+"contacts we conduct "
+"profound market "
+"explorations in search "
+"for unique furnitures "
+"from around the world."
+msgstr ""
+
+#: front-page.php:115
+msgid ""
+"19th century Japanese "
+"pharmacy chest of drawers"
+msgstr ""
+
+#: front-page.php:121
+msgid ""
+"Furniture & works of art"
+msgstr ""
+
+#: front-page.php:123
+msgid ""
+"Renovating furniture and "
+"works of art, restoring "
+"the spirit of historic "
+"objects and family "
+"heirlooms, is at the "
+"core of <strong>Square "
+"Drop</strong>'s "
+"business. With great "
+"care, we restore "
+"valuable, historic "
+"items, as well as "
+"furniture that are "
+"simply important to "
+"their owners. We know "
+"that with both the "
+"market and emotional "
+"value of objects, it is "
+"important to preserve "
+"the natural patina and "
+"traces of their history."
+msgstr ""
+
+#: front-page.php:128
+msgid ""
+"Restored piece of "
+"furniture"
+msgstr ""
+
+#: front-page.php:146
+#: woocommerce/single-product/product-image.php:67
+msgid ""
+"Your browser doesn't "
+"support video"
+msgstr ""
+
+#: front-page.php:149
+#: front-page.php:151
+msgid "Sound on"
+msgstr ""
+
+#: front-page.php:152
+msgid "Sound off"
+msgstr ""
+
+#: front-page.php:159
+msgid "Original design"
+msgstr ""
+
+#: front-page.php:161
+msgid ""
+"We create unique "
+"furniture to show beauty "
+"in difference. Our "
+"collections, unlike "
+"factory production, are "
+"reflections of creative "
+"personalities. They "
+"function as a \"square "
+"drop\" in the interior, "
+"being a jewellery "
+"addition to the décor, "
+"to which they give a "
+"unique elegance and "
+"atmosphere. A prime "
+"example is the "
+"\"Oddity\" collection "
+"designed by Kosmos "
+"Project, which is a "
+"reference to both "
+"history and the present."
+msgstr ""
+
+#: front-page.php:167
+msgid ""
+"/en/product/light-"
+"cabinet/"
+msgstr ""
+
+#: front-page.php:169
+msgid "Oddity Cabinet"
+msgstr ""
+
+#: front-page.php:170
+msgid ""
+"/en/product/curule-chair-"
+"light/"
+msgstr ""
+
+#: front-page.php:172
+#: front-page.php:251
+msgid "Oddity Curule Chair"
+msgstr ""
+
+#: front-page.php:173
+msgid "/en/product/column/"
+msgstr ""
+
+#: front-page.php:175
+msgid "Oddity Column"
+msgstr ""
+
+#: front-page.php:179
+#: front-page.php:195
+msgid ""
+"See the Oddity collection"
+msgstr ""
+
+#: front-page.php:181
+msgid ""
+"Furniture from the "
+"Oddity collection"
+msgstr ""
+
+#: front-page.php:187
+#: front-page.php:223
+#: front-page.php:237
+#: front-page.php:249
+#: front-page.php:261
+#: front-page.php:302
+#: front-page.php:328
+#: front-page.php:386
+#: front-page.php:408
+#: front-page.php:524
+#: front-page.php:550
+#: search.php:65
+#: template-parts/content.php:51
+msgid "See"
+msgstr ""
+
+#: front-page.php:209
+msgid ""
+"Łódź Design Festival "
+"Must Have Awards<br /"
+">2021 Winner"
+msgstr ""
+
+#: front-page.php:212
+msgid ""
+"Elle Decoration<br /"
+">2023 Winner"
+msgstr ""
+
+#: front-page.php:219
+msgid ""
+"/en/product/console-"
+"table-bright/"
+msgstr ""
+
+#: front-page.php:225
+msgid "Oddity Console"
+msgstr ""
+
+#: front-page.php:227
+msgid "Console"
+msgstr ""
+
+#: front-page.php:233
+msgid ""
+"/en/product/little-"
+"cabinet/"
+msgstr ""
+
+#: front-page.php:239
+msgid ""
+"Oddity Little Cabinet"
+msgstr ""
+
+#: front-page.php:241
+msgid "Little Cabinet"
+msgstr ""
+
+#: front-page.php:245
+msgid ""
+"/en/product/curule-chair-"
+"dark/"
+msgstr ""
+
+#: front-page.php:253
+msgid "Curule Chair"
+msgstr ""
+
+#: front-page.php:257
+msgid ""
+"/en/product/etagere-"
+"bright/"
+msgstr ""
+
+#: front-page.php:263
+msgid "Oddity Étagere"
+msgstr ""
+
+#: front-page.php:265
+msgid "Étagere"
+msgstr ""
+
+#: front-page.php:272
+msgid ""
+"/oddity-catalogue-en.pdf"
+msgstr ""
+
+#: front-page.php:272
+msgid ""
+"Download the catalog"
+msgstr ""
+
+#: front-page.php:274
+msgid ""
+"Download the Oddity "
+"catalog"
+msgstr ""
+
+#: front-page.php:314
+#: front-page.php:315
+#: front-page.php:350
+#: front-page.php:351
+msgid "Show all items"
+msgstr ""
+
+#: front-page.php:361
+msgid "Candelabra"
+msgstr ""
+
+#: front-page.php:367
+msgid ""
+"At <strong>Square Drop</"
+"strong>, we renovate "
+"vintage items to give "
+"them another life. We "
+"approach renovation work "
+"with the utmost care. "
+"Conservation is always "
+"preceded by a "
+"substantive analysis and "
+"often also by "
+"conservation "
+"documentation. We "
+"restore the shine to "
+"objects with history. "
+"Thanks to our experience "
+"in the conservation of "
+"furniture, fabrics, "
+"metals and paintings, we "
+"receive antique trunks "
+"from brands such as "
+"Louis Vuitton, Goyard "
+"and Moynat. We "
+"reconstruct them with "
+"care to preserve their "
+"historical and "
+"sentimental value."
+msgstr ""
+
+#: front-page.php:428
+#: front-page.php:429
+#: front-page.php:437
+#: front-page.php:438
+#: front-page.php:536
+#: front-page.php:537
+#: front-page.php:572
+#: front-page.php:573
+msgid "Show more"
+msgstr ""
+
+#: front-page.php:448
+msgid "Idea"
+msgstr ""
+
+#: front-page.php:450
+msgid ""
+"My name is Agnieszka "
+"Śniadewicz-Świca, I am "
+"the owner of the "
+"<strong>Square Drop</"
+"strong>, fine art "
+"Conservation Lab. The "
+"idea behind Square Drop "
+"is to express "
+"personality through "
+"objects. Each project is "
+"a challenge with a high "
+"emotional value for us. "
+"We think outside the box "
+"so that the works "
+"created in Square Drop "
+"can go down in history."
+msgstr ""
+
+#: front-page.php:452
+msgid "/en/about-us/"
+msgstr ""
+
+#: front-page.php:454
+#: front-page.php:455
+msgid "Get to know us"
+msgstr ""
+
+#: front-page.php:471
+msgid ""
+"Bring your ideas to life"
+msgstr ""
+
+#: front-page.php:473
+msgid ""
+"We cooperate with well-"
+"known Polish designers "
+"(Pani Jurek, Kosmos "
+"Project, UAU Project). "
+"Also, we work and "
+"implement the creative "
+"ideas of our clients, "
+"helping them to make "
+"their projects come true."
+msgstr ""
+
+#: front-page.php:476
+msgid "/en/contact/"
+msgstr ""
+
+#: front-page.php:476
+msgid "Contact"
+msgstr ""
+
+#: front-page.php:477
+msgid "Write to us"
+msgstr ""
+
+#: front-page.php:489
+msgid ""
+"Join us on "
+"<span>Instagram</span> "
+"and see our latest "
+"design ideas, news and "
+"much more."
+msgstr ""
+
+#: front-page.php:506
+msgid "Collaborations"
+msgstr ""
+
+#: front-page.php:585
+#: front-page.php:590
+#: front-page.php:595
+msgid "Find out more"
+msgstr ""
+
+#: front-page.php:600
+msgid ""
+"/en/european-union-funds/"
+msgstr ""
+
+#: front-page.php:601
+msgid ""
+"Co-financing from EU "
+"funds"
+msgstr ""
+
+#: front-page.php:609
+msgid ""
+"For the love of detail"
+msgstr ""
+
+#: functions.php:15
+msgid "Skip to content"
+msgstr ""
+
+#: functions.php:96
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:97
+msgid "Secondary Menu"
+msgstr ""
+
+#: functions.php:128
+msgid "Grayscale"
+msgstr ""
+
+#: functions.php:129
+msgid "Negative contrast"
+msgstr ""
+
+#: functions.php:130
+msgid "Links underline"
+msgstr ""
+
+#: functions.php:131
+msgid "Readable font"
+msgstr ""
+
+#: functions.php:132
+msgid "Reset"
+msgstr ""
+
+#: functions.php:133
+msgid "Toggle"
+msgstr ""
+
+#: functions.php:153
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:155
+msgid ""
+"Add widgets to the posts "
+"sidebar."
+msgstr ""
+
+#: functions.php:163
+msgid "Footer"
+msgstr ""
+
+#: functions.php:165
+msgid ""
+"Add widgets to the theme "
+"footer."
+msgstr ""
+
+#: functions.php:302
+#: functions.php:360
+msgid "Product reserved"
+msgstr ""
+
+#: functions.php:328
+msgid "Origin"
+msgstr ""
+
+#: functions.php:332
+msgid "Material"
+msgstr ""
+
+#: functions.php:336
+msgid "Dimensions"
+msgstr ""
+
+#: functions.php:350
+msgid "Availability"
+msgstr ""
+
+#: functions.php:351
+msgid "On demand"
+msgstr ""
+
+#: functions.php:378
+msgid "Enquire"
+msgstr ""
+
+#: functions.php:442
+msgid "Product video"
+msgstr ""
+
+#: functions.php:469
+msgid "Choose video"
+msgstr ""
+
+#: functions.php:472
+msgid "Choose thumbnail"
+msgstr ""
+
+#: functions.php:477
+msgid "Set aspect ratio"
+msgstr ""
+
+#: functions.php:487
+#: functions.php:511
+msgid "Remove video"
+msgstr ""
+
+#: functions.php:591
+msgid "Expand"
+msgstr ""
+
+#: functions.php:591
+msgid "Table of Contents"
+msgstr ""
+
+#: header.php:95
+msgid "Navigation"
+msgstr ""
+
+#: header.php:108
+#: header.php:109
+msgid "Close Menu"
+msgstr ""
+
+#: header.php:114
+#: header.php:116
+msgid "Open Menu"
+msgstr ""
+
+#: header.php:123
+msgid "Close Search"
+msgstr ""
+
+#: header.php:124
+msgid "Close"
+msgstr ""
+
+#: header.php:127
+#: searchform.php:12
+msgid "Search for:"
+msgstr ""
+
+#: header.php:128
+msgid ""
+"Search on squaredrop.pl"
+msgstr ""
+
+#: inc/admin-bar.php:37
+msgid "Really Simple Theme"
+msgstr ""
+
+#: inc/admin-bar.php:50
+msgid "Updates"
+msgstr ""
+
+#: inc/admin-bar.php:63
+msgid "Documentation"
+msgstr ""
+
+#: inc/admin-bar.php:76
+msgid ""
+"Support / Suggestions"
+msgstr ""
+
+#: search.php:40
+msgid "Search results"
+msgstr ""
+
+#: search.php:49
+msgid "Products"
+msgstr ""
+
+#: search.php:87
+msgid "Pages and Posts"
+msgstr ""
+
+#: searchform.php:16
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: template-parts/button-play.php:13
+msgid "Play video"
+msgstr ""
+
+#: template-parts/content-none.php:12
+msgid ""
+"There are no posts yet. "
+"Post something "
+"interesting."
+msgstr ""
+
+#: template-parts/content-page.php:71
+#: template-parts/content-single.php:39
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-search.php:15
+msgid ""
+"No results were found."
+"<br />Try a new search."
+msgstr ""
+
+#: template-parts/content-single.php:72
+#: template-parts/content-single.php:73
+msgid "Close Form"
+msgstr ""
+
+#: woocommerce/single-product/price.php:18
+msgid "Price"
+msgstr ""
+
+#: woocommerce/single-product/product-image.php:40
+msgid ""
+"Awaiting product image"
+msgstr ""

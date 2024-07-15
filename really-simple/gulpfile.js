@@ -1,0 +1,40 @@
+/*
+* GULP: really-simple
+* Author: Flaubert Henriques
+* REQUIRED: Node version <= v12.22.12
+* REQUIRED: NPM version <= v6.14.16
+* License: GPLv3 or later
+* License URI: https://www.gnu.org/licenses/gpl-3.0.html
+*/
+
+const gulp          = require('gulp');
+const sass          = require('gulp-sass')(require('sass'));
+const cleanCSS      = require('gulp-clean-css');
+const browserSync   = require('browser-sync').create();
+
+function compilaSass() {
+  return gulp
+  .src('sass/**/*.scss') // The folder where the SCSS files are
+  .pipe(sass({
+    outputStyle: 'expanded'
+  }))
+  .pipe(cleanCSS({ compatibility: 'ie8' })) // Minify the CSS
+  .pipe(gulp.dest('./'))
+  .pipe(browserSync.stream());
+}
+
+function browser() {
+  browserSync.init({
+    proxy: "localhost"
+  });
+}
+
+function watch() {
+  gulp.watch('sass/**/*.scss', compilaSass);
+  gulp.watch(['*.html', './**/*.html', '*.php', './**/*.php']).on('change', browserSync.reload); 
+}
+
+exports.compilaSass   = compilaSass;
+exports.browser       = browser;
+exports.watch         = watch;
+exports.default       = gulp.parallel(browser, watch, compilaSass);

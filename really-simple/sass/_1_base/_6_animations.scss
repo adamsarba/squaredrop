@@ -1,0 +1,201 @@
+/*--------------------------------------------------------------
+# Animations
+--------------------------------------------------------------*/
+@keyframes pulse-ring {
+  0% {
+    -webkit-transform: scale(.33);
+    transform: scale(.33);
+  }
+  80%,
+  100% {
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@-webkit-keyframes pulse-ring {
+  0% {
+    -webkit-transform: scale(.33);
+    transform: scale(.33);
+  }
+  80%,
+  100% {
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+// Slide Down
+@keyframes slide-down {
+  0% { bottom: 100% }
+  100% { bottom: 0 }
+}
+  
+@-webkit-keyframes slide-down {
+  0% { bottom: 100% }
+  100% { bottom: 0 }
+}
+
+// Slide Left
+@keyframes slide-left {
+  0% { left: 100% }
+  100% { left: 0 }
+}
+  
+@-webkit-keyframes slide-left {
+  0% { left: 100% }
+  100% { left: 0 }
+}
+
+// .spinner {
+//   -webkit-animation: spinner 1.2s infinite ease-in-out;
+//   animation: spinner 1.2s infinite ease-in-out;
+// }
+
+// @keyframes spinner {
+//   0% {
+//     -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+//     transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+//   }
+
+//   50% {
+//     -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+//     transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+//   }
+
+//   100% {
+//     -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+//     transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+//   }
+// }
+
+// @-webkit-keyframes spinner {
+//   0% {
+//     -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+//     transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+//   }
+
+//   50% {
+//     -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+//     transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+//   }
+
+//   100% {
+//     -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+//     transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+//   }
+// }
+
+// Fade Down
+// @keyframes fade-down {
+//   0% {
+//     transform: translateY(-100%);
+//     opacity: 0;
+//   }
+//   100% {
+//     transform: translateY(0);
+//     opacity: 1;
+//   }
+// }
+// @-webkit-keyframes fade-down {
+//   0% {
+//     transform: translateY(-100%);
+//     opacity: 0;
+//   }
+//   100% {
+//     transform: translateY(0);
+//     opacity: 1;
+//   }
+// }
+
+// Fade Up
+// @keyframes fade-up {
+//   0% {
+//     transform: translateY(100%);
+//     opacity: 0;
+//   }
+
+//   100% {
+//     transform: translateY(0);
+//     opacity: 1;
+//   }
+// }
+
+// @-webkit-keyframes fade-up {
+//   0% {
+//     transform: translateY(100%);
+//     opacity: 0;
+//   }
+
+//   100% {
+//     transform: translateY(0);
+//     opacity: 1;
+//   }
+// }
+
+// Fade In
+@keyframes fade-in {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-webkit-keyframes fade-in {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+// Newsletter submit
+@keyframes submit {
+  0% { background-position: center; }
+  40% { opacity: 0 }
+  50% { background-position: center right -.5rem; }
+  51% { background-position: center left -.5rem; }
+  60% { opacity: 0 }
+  90% { opacity: 1; }
+  100% { background-position: center; }
+}
+
+@-webkit-keyframes submit {
+  0% { background-position: center; }
+  40% { opacity: 0 }
+  50% { background-position: center right -.5rem; }
+  51% { background-position: center left -.5rem; }
+  60% { opacity: 0 }
+  90% { opacity: 1; }
+  100% { background-position: center; }
+}
+
+@-moz-keyframes submit {
+  0% { background-position: center; }
+  40% { opacity: 0 }
+  50% { background-position: center right -.5rem; }
+  51% { background-position: center left -.5rem; }
+  60% { opacity: 0 }
+  90% { opacity: 1; }
+  100% { background-position: center; }
+}
+
+@-o-keyframes submit {
+  0% { background-position: center; }
+  40% { opacity: 0 }
+  50% { background-position: center right -.5rem; }
+  51% { background-position: center left -.5rem; }
+  60% { opacity: 0 }
+  90% { opacity: 1; }
+  100% { background-position: center; }
+}
+
+// Forms loading
+@keyframes loading {
+  from { background-position: -38px 0; }
+  to { background-position: 38px 0; }
+}
+
+@-webkit-keyframes loading {
+  from { background-position: -38px 0; }
+  to { background-position: 38px 0; }
+}

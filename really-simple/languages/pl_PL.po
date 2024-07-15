@@ -1,0 +1,881 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Really Simple v1.0.4\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2024-07-15 14:57+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Adam Sarba\n"
+"Language-Team: Flaubert Henriques <henriquesdeveloper@gmail.com>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || "
+"n%100>14) ? 1 : 2);\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;esc_attr_e;"
+"esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2;"
+"_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:15
+msgid "Page not found"
+msgstr "Strona nie została znaleziona"
+
+#: 404.php:19
+msgid "The page you tried to access does not exist."
+msgstr "Strona, do której próbowano uzyskać dostęp, nie istnieje."
+
+#: 404.php:28
+msgid "Back to home"
+msgstr "Wróć do strony głównej"
+
+#: archive.php:38 home.php:33 search.php:74 search.php:101
+msgid "Page"
+msgstr "Strona"
+
+#: archive.php:54
+msgid "Back to blog"
+msgstr "Wróć do dziennika"
+
+#: comments.php:31
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "Jedna myśl na temat &ldquo;%s&rdquo;"
+
+#: comments.php:37
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s myśl na temat &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s myśli na temat &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s myśli na temat &ldquo;%2$s&rdquo;"
+
+#: comments.php:75
+msgid "Comments are closed."
+msgstr "Komentarze są wyłączone."
+
+#: footer.php:21
+msgid "Sign up"
+msgstr "Obserwuj nas"
+
+#: footer.php:21
+msgid "for the latest news and offers"
+msgstr "i bądź na bieżąco"
+
+#: footer.php:44
+msgid "All rights reserved"
+msgstr "Wszelkie prawa zastrzeżone"
+
+#: footer.php:47
+msgid "/en/privacy-policy/"
+msgstr "/polityka-prywatnosci/"
+
+#: footer.php:48
+msgid "Privacy Policy"
+msgstr "Polityka prywatności"
+
+#: footer.php:55 functions.php:134
+msgid "Accessibility tools"
+msgstr "Narzędzia dostępności"
+
+#: footer.php:58
+msgid "Accessibility"
+msgstr "Dostępność"
+
+#: footer.php:76
+msgid "We respect your privacy"
+msgstr "Szanujemy Twoją prywatność"
+
+#: footer.php:78
+msgid ""
+"This website uses cookies or similar technologies to enhance your browsing "
+"experience. By continuing to use our website you agree to our <a href=\"/en/privacy-"
+"policy/\">Privacy&nbsp;Policy</a>."
+msgstr ""
+"Ta witryna korzysta z plików cookie lub podobnych technologii w celu poprawy "
+"komfortu przeglądania. Kontynuując korzystanie z naszej witryny wyrażasz zgodę na "
+"naszą <a href=\"/polityka-prywatnosci/\">Politykę&nbsp;prywatności</a>."
+
+#: footer.php:81
+msgid "Accept"
+msgstr "Akceptuję"
+
+#: footer.php:86 footer.php:87
+msgid "Go to top"
+msgstr "Powrót do góry"
+
+#: front-page.php:19
+msgid "Loading"
+msgstr "Wczytywanie"
+
+#: front-page.php:52
+msgid "A one-of-a-kind studio"
+msgstr "Pracownia jedyna w swoim rodzaju"
+
+#: front-page.php:55
+msgid ""
+"We are an art laboratory specializing in the design of unique furniture and "
+"conservation of works of art, led by Agnieszka Śniadewicz-Świca. Great "
+"professionals, experienced craftsmen, designers and art historians constitute the "
+"core of <strong>Square Drop</strong>. Thanks to our cooperation with antique "
+"dealers from all over the world, we offer original furniture, thoroughly selected "
+"by experts. Each item we offer tells a story because we believe that the emotional "
+"element, high quality, durability and individual character of the designs are an "
+"expression of care for our planet."
+msgstr ""
+"Jesteśmy pracownią zajmującą się projektowaniem unikatowych mebli oraz konserwacją "
+"dzieł sztuki, prowadzoną przez Agnieszkę Śniadewicz-Świcę. Trzon <strong>Square "
+"Drop</strong> stanowią świetni fachowcy, doświadczeni rzemieślnicy, projektanci i "
+"historycy sztuki. Dzięki naszej współpracy z antykwariuszami z różnych stron świata "
+"mamy w swojej ofercie, ciekawe, wyselekcjonowane przez znawców meble. Każdy "
+"przedmiot, który proponujemy opowiada historię, gdyż wierzymy, że pierwiastek "
+"emocjonalny, wysoka jakość, trwałość i indywidualny charakter projektów to wyraz "
+"troski o naszą planetę."
+
+#: front-page.php:60 front-page.php:428 front-page.php:437
+msgid "/en/restoration/"
+msgstr "/konserwacja-obiektow-zabytkowych/"
+
+#: front-page.php:60 front-page.php:65 front-page.php:70 front-page.php:600
+#: template-parts/content.php:53
+msgid "Learn more"
+msgstr "Dowiedz się więcej"
+
+#: front-page.php:62 front-page.php:87 front-page.php:88 front-page.php:365
+msgid "Restoration"
+msgstr "Konserwacja"
+
+#: front-page.php:67 front-page.php:84 front-page.php:85 front-page.php:284
+msgid "Antiques"
+msgstr "Antyki"
+
+#: front-page.php:72 front-page.php:81 front-page.php:82
+msgid "Design"
+msgstr "Design"
+
+#: front-page.php:76
+msgid "Antiques and furniture from various collections"
+msgstr "Antyki i meble z różnych kolekcji"
+
+#: front-page.php:95
+msgid "Original collections & collaborations"
+msgstr "Oryginalne kolekcje i współprace"
+
+#: front-page.php:97
+msgid ""
+"We use our knowledge about art gained at antiques markets to create new furniture "
+"forms that possess the characteristics of collectors items. <i>Future antiques</i>, "
+"high-quality, exclusive, signed pieces, handmade to individual order from top "
+"quality materials that develop a natural patina over time. The idea behind "
+"<strong>Square Drop</strong> is to express personality through objects."
+msgstr ""
+"Wykorzystujemy naszą wiedzę z rynku sztuki i antyków, by tworzyć nowe formy "
+"meblarskie, zachowujące cechy przedmiotów kolekcjonerskich. <i>Future antiques</i>, "
+"czyli wysokiej jakości, pojedyncze, sygnowane egzemplarze, wykonywane ręcznie na "
+"indywidualne zamówienie ze szlachetnych materiałów, które z czasem pokrywają się "
+"naturalną patyną. Ideą <strong>Square Drop</strong> jest wyra­że­nie oso­bo­wo­ści przez "
+"przed­mio­ty."
+
+#: front-page.php:102
+msgid "Dark furniture from the Oddity collection"
+msgstr "Ciemne meble z kolekcji Oddity"
+
+#: front-page.php:108
+msgid "Unique items"
+msgstr "Unikatowe przedmioty"
+
+#: front-page.php:110
+msgid ""
+"<strong>Square Drop</strong>, a fine art conservation lab, is a company with family "
+"traditions. We use the experience, we have gained over the years, to carry out "
+"conservation works. Using our history of art knowledge, as well as, many "
+"international contacts we conduct profound market explorations in search for unique "
+"furnitures from around the world."
+msgstr ""
+"<strong>Square Drop</strong>, fine art conservation lab, to firma o rodzinnych "
+"tradycjach. Zdobyte przez lata doświadczenie wykorzystujemy przy realizacji prac "
+"konserwatorskich, a także przy wyszukiwaniu unikatowych mebli na całym świecie, "
+"korzystając z naszej wiedzy z zakresu historii sztuki i międzynarodowych kontaktów."
+
+#: front-page.php:115
+msgid "19th century Japanese pharmacy chest of drawers"
+msgstr "XIX-wieczna japońska komoda apteczna"
+
+#: front-page.php:121
+msgid "Furniture & works of art"
+msgstr "Meble i dzieła sztuki"
+
+#: front-page.php:123
+msgid ""
+"Renovating furniture and works of art, restoring the spirit of historic objects and "
+"family heirlooms, is at the core of <strong>Square Drop</strong>'s business. With "
+"great care, we restore valuable, historic items, as well as furniture that are "
+"simply important to their owners. We know that with both the market and emotional "
+"value of objects, it is important to preserve the natural patina and traces of "
+"their history."
+msgstr ""
+"Renowacja mebli i dzieł sztuki, przywracająca ducha zabytkowym obiektom i rodzinnym "
+"pamiątkom, to podstawa działalności <strong>Square Drop</strong>. Z wiel­ką tro­ską "
+"odrestaurowujemy cen­ne, zabyt­ko­we obiek­ty, a tak­że meble po pro­stu waż­ne dla ich wła­"
+"ści­cie­li. Wiemy, że zarówno przy wartości rynkowej, jak i emocjonalnej przedmiotów "
+"ważne jest zachowanie naturalnej patyny i śladów świadczących o ich historii."
+
+#: front-page.php:128
+msgid "Restored piece of furniture"
+msgstr "Odrestaurowany mebel"
+
+#: front-page.php:146 woocommerce/single-product/product-image.php:82
+msgid "Your browser doesn't support video"
+msgstr "Twoja przeglądarka nie obsługuje wideo"
+
+#: front-page.php:149 front-page.php:151
+msgid "Sound on"
+msgstr "Włącz dźwięk"
+
+#: front-page.php:152
+msgid "Sound off"
+msgstr "Wyłącz dźwięk"
+
+#: front-page.php:159
+msgid "Original design"
+msgstr "Oryginalny design"
+
+#: front-page.php:161
+msgid ""
+"We create unique furniture to show beauty in difference. Our collections, unlike "
+"factory production, are reflections of creative personalities. They function as a "
+"\"square drop\" in the interior, being a jewellery addition to the décor, to which "
+"they give a unique elegance and atmosphere. A prime example is the \"Oddity\" "
+"collection designed by Kosmos Project, which is a reference to both history and the "
+"present."
+msgstr ""
+"Tworzymy unikatowe meble, by pokazać piękno w odmienności. Nasze kolekcje, w "
+"przeciwieństwie do produkcji fabrycznej, są odzwierciedleniem kreatywnej "
+"osobowości. Funkcjonują jako \"square drop\" we wnętrzu, będąc biżuteryjnym "
+"dodatkiem do wystroju, któremu nadają wyjątkowego klimatu i elegancji. Sztandarowym "
+"przykładem jest kolekcja \"Oddity\", projektu studia Kosmos Project, stanowiąca "
+"nawiązanie zarówno do historii, jak i do współczesności."
+
+#: front-page.php:167
+msgid "/en/product/light-cabinet/"
+msgstr "/produkt/kabinet-jasny/"
+
+#: front-page.php:169
+msgid "Oddity Cabinet"
+msgstr "Kabinet Oddity"
+
+#: front-page.php:170
+msgid "/en/product/curule-chair-light/"
+msgstr "/produkt/gondola-jasna/"
+
+#: front-page.php:172 front-page.php:251
+msgid "Oddity Curule Chair"
+msgstr "Gondola Oddity"
+
+#: front-page.php:173
+msgid "/en/product/column/"
+msgstr "/produkt/kolumna/"
+
+#: front-page.php:175
+msgid "Oddity Column"
+msgstr "Kolumna Oddity"
+
+#: front-page.php:179 front-page.php:195
+msgid "See the Oddity collection"
+msgstr "Zobacz kolekcję Oddity"
+
+#: front-page.php:181
+msgid "Furniture from the Oddity collection"
+msgstr "Meble z kolekcji Oddity"
+
+#: front-page.php:187 front-page.php:223 front-page.php:237 front-page.php:249
+#: front-page.php:261 front-page.php:302 front-page.php:328 front-page.php:386
+#: front-page.php:408 front-page.php:524 front-page.php:550 search.php:65
+#: template-parts/content.php:51
+msgid "See"
+msgstr "Zobacz"
+
+#: front-page.php:209
+msgid "Łódź Design Festival Must Have Awards<br />2021 Winner"
+msgstr "Łódź Design Festival Must Have Awards<br />2021 Winner"
+
+#: front-page.php:212
+msgid "Elle Decoration<br />2023 Winner"
+msgstr "Elle Decoration<br />2023 Winner"
+
+#: front-page.php:219
+msgid "/en/product/console-table-bright/"
+msgstr "/produkt/konsola-jasna/"
+
+#: front-page.php:225
+msgid "Oddity Console"
+msgstr "Konsola Oddity"
+
+#: front-page.php:227
+msgid "Console"
+msgstr "Konsola"
+
+#: front-page.php:233
+msgid "/en/product/little-cabinet/"
+msgstr "/produkt/kabinecik/"
+
+#: front-page.php:239
+msgid "Oddity Little Cabinet"
+msgstr "Kabinecik Oddity"
+
+#: front-page.php:241
+msgid "Little Cabinet"
+msgstr "Kabinecik"
+
+#: front-page.php:245
+msgid "/en/product/curule-chair-dark/"
+msgstr "/produkt/gondola-ciemna/"
+
+#: front-page.php:253
+msgid "Curule Chair"
+msgstr "Gondola"
+
+#: front-page.php:257
+msgid "/en/product/etagere-bright/"
+msgstr "/produkt/etazerka-jasna/"
+
+#: front-page.php:263
+msgid "Oddity Étagere"
+msgstr "Etażerka Oddity"
+
+#: front-page.php:265
+msgid "Étagere"
+msgstr "Etażerka"
+
+#: front-page.php:272
+msgid "/oddity-catalogue-en.pdf"
+msgstr "/oddity-catalogue-pl.pdf"
+
+#: front-page.php:272
+msgid "Download the catalog"
+msgstr "Pobierz katalog"
+
+#: front-page.php:274
+msgid "Download the Oddity catalog"
+msgstr "Pobierz katalog Oddity"
+
+#: front-page.php:314 front-page.php:315 front-page.php:350 front-page.php:351
+msgid "Show all items"
+msgstr "Pokaż wszystkie przedmioty"
+
+#: front-page.php:361
+msgid "Candelabra"
+msgstr "Kandelabry"
+
+#: front-page.php:367
+msgid ""
+"At <strong>Square Drop</strong>, we renovate vintage items to give them another "
+"life. We approach renovation work with the utmost care. Conservation is always "
+"preceded by a substantive analysis and often also by conservation documentation. We "
+"restore the shine to objects with history. Thanks to our experience in the "
+"conservation of furniture, fabrics, metals and paintings, we receive antique trunks "
+"from brands such as Louis Vuitton, Goyard and Moynat. We reconstruct them with care "
+"to preserve their historical and sentimental value."
+msgstr ""
+"W <strong>Square Drop</strong> odnawiamy przedmioty zabytkowe, by dać im kolejne "
+"życie. Do prac renowacyjnych podchodzimy z najwyższą starannością. Konserwację "
+"zawsze poprzedza rzeczowa analiza, a często również dokumentacja konserwatorska. "
+"Przywracamy blask przedmiotom z historią. Dzięki doświadczeniu w konserwacji mebli, "
+"tkanin, metali i obrazów trafiają do nas zabytkowe kufry takich marek jak Louis "
+"Vuitton, Goyard i Moynat. Rekonstruujemy je ze starannością, by ocalić ich wartość "
+"historyczną i sentymentalną."
+
+#: front-page.php:428 front-page.php:429 front-page.php:437 front-page.php:438
+#: front-page.php:536 front-page.php:537 front-page.php:572 front-page.php:573
+msgid "Show more"
+msgstr "Pokaż więcej"
+
+#: front-page.php:448
+msgid "Idea"
+msgstr "Idea"
+
+#: front-page.php:450
+msgid ""
+"My name is Agnieszka Śniadewicz-Świca, I am the owner of the <strong>Square Drop</"
+"strong>, fine art Conservation Lab. The idea behind Square Drop is to express "
+"personality through objects. Each project is a challenge with a high emotional "
+"value for us. We think outside the box so that the works created in Square Drop can "
+"go down in history."
+msgstr ""
+"Nazywam się Agnieszka Śniadewicz-Świca, jestem właścicielką <strong>Square Drop</"
+"strong>. Ideą pracowni jest wyra­że­nie oso­bo­wo­ści przez przed­mio­ty. Każdy projekt "
+"jest dla nas wyzwaniem o dużej wartości emocjonalnej. Wychodzimy poza schemat, by "
+"prace powstające w <strong>Square Drop</strong> mogły trwale zapisać się w historii."
+
+#: front-page.php:452
+msgid "/en/about-us/"
+msgstr "/o-nas/"
+
+#: front-page.php:454 front-page.php:455
+msgid "Get to know us"
+msgstr "Poznaj nas"
+
+#: front-page.php:471
+msgid "Bring your ideas to life"
+msgstr "Realizuj swoje pomysły"
+
+#: front-page.php:473
+msgid ""
+"We cooperate with well-known Polish designers (Pani Jurek, Kosmos Project, UAU "
+"Project). Also, we work and implement the creative ideas of our clients, helping "
+"them to make their projects come true."
+msgstr ""
+"Współpracujemy ze znanymi polskimi projektantami (Panią Jurek, Kosmos Project, UAU "
+"Project), a także realizujemy twórcze pomysły naszych klientów pomagając w ich "
+"urzeczywistnieniu."
+
+#: front-page.php:476
+msgid "/en/contact/"
+msgstr "/kontakt/"
+
+#: front-page.php:476
+msgid "Contact"
+msgstr "Kontakt"
+
+#: front-page.php:477
+msgid "Write to us"
+msgstr "Napisz do nas"
+
+#: front-page.php:489
+msgid ""
+"Join us on <span>Instagram</span> and see our latest design ideas, news and much "
+"more."
+msgstr ""
+"Dołącz do nas na <span>Instagramie</span> i zobacz nasze najnowsze pomysły "
+"projektowe, aktualności i wiele więcej."
+
+#: front-page.php:506
+msgid "Collaborations"
+msgstr "Współprace"
+
+#: front-page.php:585 front-page.php:590 front-page.php:595
+msgid "Find out more"
+msgstr "Dowiedz się więcej"
+
+#: front-page.php:600
+msgid "/en/european-union-funds/"
+msgstr "/fundusze-europejskie/"
+
+#: front-page.php:601
+msgid "Co-financing from EU funds"
+msgstr "Dofinansowanie z funduszy UE"
+
+#: front-page.php:609
+msgid "For the love of detail"
+msgstr "Z miłości do detalu"
+
+#: functions.php:15
+msgid "Skip to content"
+msgstr "Przejdź do treści"
+
+#: functions.php:91
+msgid "Primary Menu"
+msgstr "Menu główne"
+
+#: functions.php:92
+msgid "Secondary Menu"
+msgstr "Menu dodatkowe"
+
+#: functions.php:135
+msgid "Grayscale"
+msgstr "Skala szarości"
+
+#: functions.php:136
+msgid "Negative contrast"
+msgstr "Negatywny kontrast"
+
+#: functions.php:137
+msgid "Links underline"
+msgstr "Podkreślone linki"
+
+#: functions.php:138
+msgid "Readable font"
+msgstr "Czytelny tekst"
+
+#: functions.php:139
+msgid "Reset"
+msgstr "Reset"
+
+#: functions.php:140
+msgid "Toggle"
+msgstr "Przełącz"
+
+#: functions.php:151
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: functions.php:153
+msgid "Add widgets to the posts sidebar."
+msgstr "Dodaj widgety do sidebara wpisu."
+
+#: functions.php:161
+msgid "Footer"
+msgstr "Stopka"
+
+#: functions.php:163
+msgid "Add widgets to the theme footer."
+msgstr "Dodaj widgety do stopki motywu."
+
+#: functions.php:308 functions.php:366
+msgid "Product reserved"
+msgstr "Produkt zarezerwowany"
+
+#: functions.php:334
+msgid "Origin"
+msgstr "Pochodzenie"
+
+#: functions.php:338
+msgid "Material"
+msgstr "Materiał"
+
+#: functions.php:342
+msgid "Dimensions"
+msgstr "Wymiary"
+
+#: functions.php:356
+msgid "Availability"
+msgstr "Dostępność"
+
+#: functions.php:357
+msgid "On demand"
+msgstr "Na zamówienie"
+
+#: functions.php:384
+msgid "Enquire"
+msgstr "Zapytaj"
+
+#: functions.php:460
+msgid "Product video"
+msgstr "Film produktu"
+
+#: functions.php:487
+msgid "Choose video"
+msgstr "Wybierz film"
+
+#: functions.php:490
+msgid "Choose thumbnail"
+msgstr "Wybierz miniaturkę"
+
+#: functions.php:495
+msgid "Set aspect ratio"
+msgstr "Ustaw proporcje"
+
+#: functions.php:505 functions.php:529
+msgid "Remove video"
+msgstr "Usuń film"
+
+#: functions.php:617
+msgid "Expand"
+msgstr "Rozwiń"
+
+#: functions.php:617
+msgid "Table of Contents"
+msgstr "Spis treści"
+
+#: header.php:90
+msgid "Navigation"
+msgstr "Nawigacja"
+
+#: header.php:103 header.php:104
+msgid "Close Menu"
+msgstr "Zamknij Menu"
+
+#: header.php:109 header.php:111
+msgid "Open Menu"
+msgstr "Otwórz Menu"
+
+#: header.php:118
+msgid "Close Search"
+msgstr "Zamknij wyszukiwanie"
+
+#: header.php:119
+msgid "Close"
+msgstr "Zamknij"
+
+#: header.php:122 searchform.php:12
+msgid "Search for:"
+msgstr "Szukaj:"
+
+#: header.php:123
+msgid "Search on squaredrop.pl"
+msgstr "Szukaj na squaredrop.pl"
+
+#: search.php:40
+msgid "Search results"
+msgstr "Wyniki wyszukiwania"
+
+#: search.php:49
+msgid "Products"
+msgstr "Przedmioty"
+
+#: search.php:87
+msgid "Pages and Posts"
+msgstr "Strony i wpisy"
+
+#: searchform.php:16
+msgctxt "submit button"
+msgid "Search"
+msgstr "Szukaj"
+
+#: template-parts/button-play.php:13
+msgid "Play video"
+msgstr "Włącz film"
+
+#: template-parts/content-none.php:12
+msgid "There are no posts yet. Post something interesting."
+msgstr "Nie ma jeszcze żadnych postów. Opublikuj coś ciekawego."
+
+#: template-parts/content-page.php:71 template-parts/content-single.php:39
+msgid "Pages:"
+msgstr "Strony:"
+
+#: template-parts/content-search.php:15
+msgid "No results were found.<br />Try a new search."
+msgstr "Nie znaleziono żadnych wyników.<br />Wyszukaj jeszcze raz."
+
+#: template-parts/content-single.php:72 template-parts/content-single.php:73
+msgid "Close Form"
+msgstr "Zamknij Formularz"
+
+#: woocommerce/single-product/price.php:18
+msgid "Price"
+msgstr "Cena"
+
+#: woocommerce/single-product/product-image.php:42
+msgid "Awaiting product image"
+msgstr "Oczekiwanie na zdjęcie produktu"
+
+#~ msgid "Really Simple Theme"
+#~ msgstr "Motyw Really Simple"
+
+#~ msgid "Updates"
+#~ msgstr "Aktualizacje"
+
+#~ msgid "Documentation"
+#~ msgstr "Dokumentacja"
+
+#~ msgid "Support / Suggestions"
+#~ msgstr "Wsparcie / Sugestie"
+
+#~ msgid "/en/collaboration/"
+#~ msgstr "/wspolpraca/"
+
+#~ msgid "/en/category/antiques/"
+#~ msgstr "/kategoria/antyki/"
+
+#~ msgid "/en/category/oddity/"
+#~ msgstr "/kategoria/oddity/"
+
+#~ msgid "/en/category/antiques"
+#~ msgstr "/kategoria/antyki/"
+
+#~ msgid "Photo from the studio"
+#~ msgstr "Zdjęcie z pracowni"
+
+#~ msgid "Footer 2"
+#~ msgstr "Stopka 2"
+
+#~ msgid ""
+#~ "We are a studio specializing in the design of unique furniture and conservation "
+#~ "of works of art, run by Agnieszka Śniadewicz-Świca. <strong>Square Drop</"
+#~ "strong>'s core consists of great professionals, experienced craftsmen, designers "
+#~ "and art historians. Thanks to our cooperation with antique dealers from various "
+#~ "parts of the world, we offer interesting furniture selected by experts. Each "
+#~ "item we offer tells a story because we believe that the emotional element, high "
+#~ "quality, durability and individual character of the designs are an expression of "
+#~ "care for our planet."
+#~ msgstr ""
+#~ "Jesteśmy pracownią zajmującą się projektowaniem unikatowych mebli oraz "
+#~ "konserwacją dzieł sztuki, prowadzoną przez Agnieszkę Śniadewicz-Świcę. Trzon "
+#~ "<strong>Square Drop</strong> stanowią świetni fachowcy, doświadczeni "
+#~ "rzemieślnicy, projektanci i historycy sztuki. Dzięki naszej współpracy z "
+#~ "antykwariuszami z róznych stron świata mamy w swojej ofercie, ciekawe, "
+#~ "wyselekcjonowane przez znawców meble. Każdy przedmiot, który proponujemy "
+#~ "opowiada historię, gdyż wierzymy, że pierwiastek emocjonalny, wysoka jakość, "
+#~ "trwałość i indywidualny charakter projektów to wyraz troski o naszą planetę."
+
+#~ msgid "Original collections and collaborations"
+#~ msgstr "Oryginalne kolekcje i współprace"
+
+#~ msgid ""
+#~ "We use our knowledge of the art and antiques market to create new furniture "
+#~ "forms that retain the features of collectors' items. <i>Future antiques</i>, i."
+#~ "e. high-quality, single, signed pieces, handmade to individual order from noble "
+#~ "materials that acquire a natural patina over time. The idea behind "
+#~ "<strong>Square Drop</strong> is to express personality through objects."
+#~ msgstr ""
+#~ "Wykorzystujemy naszą wiedzę z rynku sztuki i antyków, by tworzyć nowe formy "
+#~ "meblarskie, zachowujące cechy przedmiotów kolekcjonerskich. <i>Future antiques</"
+#~ "i>, czyli wysokiej jakości, pojedyncze, sygnowane egzemplarze, wykonywane "
+#~ "ręcznie na indywidualne zamówienie ze szlachetnych materiałów, które z czasem "
+#~ "pokrywają się naturalną patyną. Ideą <strong>Square Drop</strong> jest wyra­że­nie "
+#~ "oso­bo­wo­ści przez przed­mio­ty."
+
+#~ msgid ""
+#~ "<strong>Square Drop</strong>, a fine art conservation lab, is a company with "
+#~ "family traditions. We use the experience we have gained over the years to carry "
+#~ "out conservation works, as well as to search for unique furniture around the "
+#~ "world, using our knowledge of art history and international contacts."
+#~ msgstr ""
+#~ "<strong>Square Drop</strong>, fine art conservation lab, to firma o rodzinnych "
+#~ "tradycjach. Zdobyte przez lata doświadczenie wykorzystujemy przy realizacji prac "
+#~ "konserwatorskich, a także przy wyszukiwaniu unikatowych mebli na całym świecie, "
+#~ "korzystając z naszej wiedzy z zakresu historii sztuki i międzynarodowych "
+#~ "kontaktów."
+
+#~ msgid "Furniture and works of art"
+#~ msgstr "Meble i dzieła sztuki"
+
+#~ msgid ""
+#~ "Restoration of furniture and works of art, restoring the spirit of historic "
+#~ "objects and family souvenirs, is the basis of <strong>Square Drop</strong>'s "
+#~ "business. We take great care in restoring valuable, historic objects, as well as "
+#~ "furniture that is simply important to their owners. We know that both in terms "
+#~ "of the market value and the emotional value of objects, it is important to "
+#~ "preserve the natural patina and traces of their history."
+#~ msgstr ""
+#~ "Renowacja mebli i dzieł sztuki, przywracająca ducha zabytkowym obiektom i "
+#~ "rodzinnym pamiątkom, to podstawa działalności <strong>Square Drop</strong>. Z "
+#~ "wiel­ką tro­ską odrestaurowujemy cen­ne, zabyt­ko­we obiek­ty, a tak­że meble po pro­stu "
+#~ "waż­ne dla ich wła­ści­cie­li. Wiemy, że zarówno przy wartości rynkowej, jak i "
+#~ "emocjonalnej przedmiotów ważne jest zachowanie naturalnej patyny i śladów "
+#~ "świadczących o ich historii."
+
+#~ msgid ""
+#~ "We create unique furniture to show beauty in difference. Our collections, unlike "
+#~ "factory production, reflect a creative personality. They function as a \"square "
+#~ "drop\" in the interior, being a jewelry addition to the decor, giving a unique "
+#~ "atmosphere and elegance. A flagship example is the \"Oddity\" collection, "
+#~ "designed by the Kosmos Project studio, which is a reference to both history and "
+#~ "the present."
+#~ msgstr ""
+#~ "Tworzymy unikatowe meble, by pokazać piękno w odmienności. Nasze kolekcje, w "
+#~ "przeciwieństwie do produkcji fabrycznej, są odzwierciedleniem kreatywnej "
+#~ "osobowości. Funkcjonują jako \"square drop\" we wnętrzu, będąc biżuteryjnym "
+#~ "dodatkiem do wystroju, któremu nadają wyjątkowego klimatu i elegancji. "
+#~ "Sztandarowym przykładem jest kolekcja \"Oddity\", projektu studia Kosmos "
+#~ "Project, stanowiąca nawiązanie zarówno do historii, jak i do współczesności."
+
+#~ msgid "Music Table"
+#~ msgstr "Stół muzyczny"
+
+#~ msgid "/en/shop/"
+#~ msgstr "/sklep/"
+
+#~ msgid "/en/product/royal-coffee-table/"
+#~ msgstr "/produkt/krolewski-stolik-kawowy/"
+
+#~ msgid "Royal Coffee Table"
+#~ msgstr "Królewski stolik kawowy"
+
+#~ msgid "Denmark, 19th-20th century"
+#~ msgstr "Dania, XIX-XX wiek"
+
+#~ msgid "/en/product/art-deco-armchairs/"
+#~ msgstr "/produkt/fotele-art-deco/"
+
+#~ msgid "Art Deco Armchairs"
+#~ msgstr "Fotele Arm Deco"
+
+#~ msgid "Denmark, 1920"
+#~ msgstr "Dania, 1920"
+
+#~ msgid "/en/product/sofa-wilhelm-kimbel/"
+#~ msgstr "/en/product/sofa-wilhelm-kimbel/"
+
+#~ msgid "Sofa, Wilhelm Kimbel"
+#~ msgstr "Sofa, Wilhelm Kimbel"
+
+#~ msgid "Germany, 19th century"
+#~ msgstr "Niemcy, XIX wiek"
+
+#~ msgid "/en/product/filipino-table/"
+#~ msgstr "/produkt/stol-filipinski/"
+
+#~ msgid "Filipino Table"
+#~ msgstr "Stół filipiński"
+
+#~ msgid "19th century console table"
+#~ msgstr "XIX-wieczny stół konsolowy"
+
+#~ msgid ""
+#~ "My name is Agnieszka Śniadewicz-Świca, I am the owner of <strong>Square Drop</"
+#~ "strong>. The idea of the studio is to express personality through objects. Each "
+#~ "project is a challenge for us with great emotional value. We go beyond scheme so "
+#~ "that the works created in <strong>Square Drop</strong> can be permanently "
+#~ "recorded in history."
+#~ msgstr ""
+#~ "Nazywam się Agnieszka Śniadewicz-Świca, jestem właścicielką <strong>Square Drop</"
+#~ "strong>. Ideą pracowni jest wyra­że­nie oso­bo­wo­ści przez przed­mio­ty. Każdy projekt "
+#~ "jest dla nas wyzwaniem o dużej wartości emocjonalnej. Wychodzimy poza schemat, "
+#~ "by prace powstające w <strong>Square Drop</strong> mogły trwale zapisać się w "
+#~ "historii."
+
+#~ msgid "Meet our team"
+#~ msgstr "Poznaj nasz zespół"
+
+#~ msgid ""
+#~ "We cooperate with famous Polish designers (Pani Jurek, Kosmos Project, UAU "
+#~ "Project) and we implement our clients' creative ideas, helping them come true."
+#~ msgstr ""
+#~ "Współpracujemy ze znanymi polskimi projektantami (Panią Jurek, Kosmos Project, "
+#~ "UAU Project), a także realizujemy twórcze pomysły naszych klientów pomagając w "
+#~ "ich urzeczywistnieniu."
+
+#~ msgctxt "placeholder"
+#~ msgid "Search for:"
+#~ msgstr "Szukaj:"
+
+#~ msgid "/en/product/light-gondola/"
+#~ msgstr "/produkt/gondola-jasna/"
+
+#~ msgid "Oddity Gondola"
+#~ msgstr "Gondola Oddity"
+
+#~ msgid "Gondola"
+#~ msgstr "Gondola"
+
+#~ msgid "/en/category/design/"
+#~ msgstr "/kategoria/design/"
+
+#, fuzzy
+#~| msgid "/en/category/oddity"
+#~ msgid "/en/category/design"
+#~ msgstr "/kategoria/oddity"
+
+#~ msgid "This page uses cookies"
+#~ msgstr "Ta strona korzysta z ciasteczek"
+
+#~ msgid "Loading<span></span>"
+#~ msgstr "Loading<span></span>"
+
+#, fuzzy
+#~ msgid "A one-of-a-kind studio 2"
+#~ msgstr "Pracownia jedyna w swoim rodzaju"
+
+#, php-format
+#~ msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+#~ msgstr "Edytuj <span class=\"screen-reader-text\">%s</span>"
+
+#~ msgid "Previous:"
+#~ msgstr "Poprzedni:"
+
+#~ msgid "Next:"
+#~ msgstr "Następny:"
+
+#~ msgid "Author: "
+#~ msgstr "Autor: "
+
+#~ msgid "Categories:"
+#~ msgstr "Kategoria:"

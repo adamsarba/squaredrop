@@ -1,0 +1,19 @@
+/* Admin
+--------------------------------------------- */
+#primary footer.entry-footer,
+#wp-admin-bar-comments {
+  display: none;
+}
+
+// #primary footer.entry-footer {
+//   margin-top: 50px;
+//   text-align: center;
+// }
+
+// #wpadminbar ul#wp-admin-bar-root-default>#wp-admin-bar-really-simple-admin-bar {
+//   &,
+//   & a:hover,
+//   & a[aria-haspopup="true"] {
+//     background: #343f46 !important;
+//   }
+// }
