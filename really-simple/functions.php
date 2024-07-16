@@ -386,12 +386,14 @@ add_action( 'woocommerce_single_product_summary', function() {
   }
 }, 220 );
 
-// Display oddity logo on product page
-function oddity_logo() {
+// Display partner logo on product page
+function partner_logo() {
   if ( is_product_in_category('oddity') ) {
-    printf( '<img src="%s" alt="oddity" class="oddity-logo" width="96" height="30.31" />', esc_url( get_template_directory_uri() . '/front-page/oddity.svg' ) );
+    printf( '<img src="%s" alt="oddity" class="partner-logo oddity-logo" width="96" height="30.31" />', esc_url( get_template_directory_uri() . '/front-page/oddity.svg' ) );
+  } elseif ( is_product_in_category('trn-by-pani-jurek') ) {
+    printf( '<img src="%s" alt="Pani Jurek" class="partner-logo pani_jurek-logo" width="96" height="20.13" />', esc_url( wp_upload_dir()['baseurl'] . '/pani_jurek-logo.webp' ) );
   }
-} add_action('woocommerce_single_product_summary', 'oddity_logo', 0);
+} add_action('woocommerce_single_product_summary', 'partner_logo', 0);
 
 function is_product_in_category($category_slug) {
   if ( function_exists('is_product') && is_product() ) {

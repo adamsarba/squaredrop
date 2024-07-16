@@ -121,16 +121,19 @@
 }
 
 /* Specials */
-.woocommerce-page .single-product > .product .oddity-logo {
-  filter: invert(1);
+.woocommerce-page .single-product > .product .partner-logo {
   width: 96px;
-
+  // for image alt text
+  text-wrap: nowrap;
+  overflow: visible;
+  
   &:first-child {
     margin: -20px auto 20px;
   }
-  // &:last-child {
-  //   margin: 80px auto 0;
-  // }
+  
+  &.oddity-logo {
+    filter: invert(1);
+  }
 }
 
 /* Gallery
@@ -402,7 +405,7 @@ div[class*='kursor'].kursor--1+.kursorChild {
   .woocommerce-page .single-product > .product {
     gap: 20px !important
   }
-  .woocommerce-page .single-product > .product .oddity-logo:first-child {
+  .woocommerce-page .single-product > .product .partner-logo:first-child {
     margin: 20px auto;
   }
 }
@@ -413,7 +416,7 @@ div[class*='kursor'].kursor--1+.kursorChild {
     top: -20px;
     // padding-bottom: 20px;
 
-    &:has(.oddity-logo) {
+    &:has(.partner-logo) {
       top: 0;
     }
   }
@@ -429,12 +432,12 @@ div[class*='kursor'].kursor--1+.kursorChild {
       "related";
   }
 
-  .woocommerce-page .single-product > .product .oddity-logo:first-child {
+  .woocommerce-page .single-product > .product .partner-logo:first-child {
     margin: 40px auto 0;
     order: 2;
   }
 
-  .woocommerce-page[class*="oddity"] .single-product > .product:has(.video) .oddity-logo {
+  .woocommerce-page[class*="oddity"] .single-product > .product:has(.video) .partner-logo {
     margin: 40px auto;
   }
 
