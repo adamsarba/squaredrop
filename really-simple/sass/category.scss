@@ -59,10 +59,18 @@
     gap: 1rem;
   }
 
-  .cat-thumbnail img {
+  .cat-thumbnail img,
+  .cat-taxonomy-content {
     position: sticky;
-    top: 87px;
     transition: all 300ms ease-in-out;
+  }
+  
+  .cat-thumbnail img {
+    top: 87px;
+  }
+
+  .cat-taxonomy-content {
+    top: calc(87px + 1rem);
   }
 
   .cat-taxonomy .more-wrapper {
@@ -104,11 +112,62 @@ body:has(header.header-hidden) {
   .cat-thumbnail img {
     top: 0 !important;
   }
+
+  .cat-taxonomy-content {
+    top: 1rem !important;
+  }
 }
 
 @media screen and (max-width: 1024px) {
   .woocommerce-page .entry-description .cat-thumbnail img {
     top: 150px;
+  }
+}
+
+// Awards
+.awards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px 30px;
+  margin-top: 2em;
+  padding-bottom: 1em;
+}
+
+.award {
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.2;
+  display: flex;
+  flex-flow: nowrap;
+  align-items: center;
+  gap: 5px;
+
+  &::before,
+  &::after {
+    display: block;
+    content: "";
+    background-image: url("icns/laurel.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    width: 31.19px;
+    height: 50px;
+    margin-top: -5px;
+  }
+
+  &::before {
+    transform: rotate(15deg);
+  }
+
+  &::after {
+    transform: scaleX(-1) rotate(15deg);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .award {
+    font-size: 12px;
   }
 }
 

@@ -31,14 +31,17 @@
           </div>
           <?php endif; ?>
           <div class="cat-taxonomy" aria-expanded="false">
-            <?php echo get_field('rich_description') ?>
+            <div class="cat-taxonomy-content">
+              <?php echo get_field('rich_description') ?>
+            </div>
           </div>
         </div>
         <script>
-          const catTaxonomy   = document.querySelector('.cat-taxonomy'),
-                showMore      = catTaxonomy.querySelector('.show-more'),
+          const catTaxonomy   = document.querySelector('.cat-taxonomy')
+          const showMore      = catTaxonomy.querySelector('.show-more'),
                 hiddenContent = catTaxonomy.querySelector('.more-wrapper');
-          showMore.addEventListener('click', function() {
+
+          if (showMore) showMore.addEventListener('click', function() {
             hiddenContent.classList.toggle('expanded');
             if (hiddenContent.classList.contains('expanded')) {
               showMore.textContent = "↑"
