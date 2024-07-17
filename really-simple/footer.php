@@ -99,7 +99,7 @@
   </script>
   <?php endif; ?>
 
-  <?php if ( category_slug_contains('oddity') ) : ?>
+  <?php if ( category_slug_contains('oddity') || category_slug_contains('trn-by-pani-jurek') ) : ?>
   <script id="category-video-script" type="text/javascript">
     // Play video
     const videoContainer = document.querySelector("#main .video"),

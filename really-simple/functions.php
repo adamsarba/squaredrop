@@ -391,7 +391,7 @@ function partner_logo() {
   if ( is_product_in_category('oddity') ) {
     printf( '<img src="%s" alt="oddity" class="partner-logo oddity-logo" width="96" height="30.31" />', esc_url( get_template_directory_uri() . '/front-page/oddity.svg' ) );
   } elseif ( is_product_in_category('trn-by-pani-jurek') ) {
-    printf( '<img src="%s" alt="Pani Jurek" class="partner-logo pani_jurek-logo" width="96" height="20.13" />', esc_url( wp_upload_dir()['baseurl'] . '/pani_jurek-logo.webp' ) );
+    printf( '<img src="%s" alt="Pani Jurek" class="partner-logo pani_jurek-logo" width="96" height="20.13" />', esc_url( wp_upload_dir()['baseurl'] . '/pani_jurek-logo.svg' ) );
   }
 } add_action('woocommerce_single_product_summary', 'partner_logo', 0);
 
@@ -407,14 +407,18 @@ function is_product_in_category($category_slug) {
   }
 }
 
-// Display oddity movie on the product category page
-function oddity_movie() {
-  if ( category_slug_contains('oddity') ) {
+// Display category movie on the product category page
+function category_movie() {
+  if ( category_slug_contains('oddity') || category_slug_contains('trn-by-pani-jurek') ) {
     echo '<div class="video">';
-    printf( '<video playsinline preload="none" poster="%s"><source src="%s" type="video/mp4"></video>', wp_upload_dir()['baseurl'] . '/oddity-movie-poster.webp', wp_upload_dir()['baseurl'] . '/oddity-movie.webm' );
+    if ( category_slug_contains('oddity') ) {
+      printf( '<video playsinline preload="none" poster="%s"><source src="%s" type="video/webm"></video>', wp_upload_dir()['baseurl'] . '/oddity-movie-poster.webp', wp_upload_dir()['baseurl'] . '/oddity-movie.webm' );
+    } elseif ( category_slug_contains('trn-by-pani-jurek') ) {
+      printf( '<video playsinline preload="none" poster="%s"><source src="%s" type="video/webm"></video>', wp_upload_dir()['baseurl'] . '/trn_pani_jurek-movie-poster.webp', wp_upload_dir()['baseurl'] . '/trn_pani_jurek-movie.webm' );
+    }
     get_template_part( 'template-parts/button', 'play' ) . '</div>';
   }
-} add_action('woocommerce_after_shop_loop', 'oddity_movie', 10);
+} add_action('woocommerce_after_shop_loop', 'category_movie', 10);
 
 function category_slug_contains($category_slug) {
   if ( function_exists('is_product_category') && is_product_category() ) {
