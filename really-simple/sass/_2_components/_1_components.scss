@@ -1183,6 +1183,10 @@
 .entry-body .entry-content .wp-block-quote {
   position: relative;
   border-left: 1px solid var(--cream);
+
+  &:not(:last-child) {
+    margin-bottom: 2em;
+  }
 }
 
 .entry-body .entry-content .wp-block-quote::before {
