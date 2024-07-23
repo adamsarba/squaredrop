@@ -1,10 +1,14 @@
 /* Accessibility
 --------------------------------------------- */
-const a11y        = document.querySelector('.footer-tools #accessibility');
-const a11yBtn     = a11y.querySelector('.a11y-button');
-const a11yData    = JSON.parse(localStorage.getItem('sd-a11y')) || {};
+const a11y         = document.querySelector('.footer-tools #accessibility');
+const a11yMenuItem = document.querySelector('.menu-item-accessibility');
+const a11yBtn      = a11y.querySelector('.a11y-button');
+const a11yData     = JSON.parse(localStorage.getItem('sd-a11y')) || {};
 
-const templateDir = window.location.origin + '/wp-content/themes/really-simple';
+const templateDir  = window.location.origin + '/wp-content/themes/really-simple';
+
+let cssAdded       = false; // Store if the css file has beed added
+var firstClick     = true;  // Store if the toolbar has been opened before
 
 if (cookie_consent && a11yData) {
   loadCSS();
@@ -16,9 +20,9 @@ if (cookie_consent && a11yData) {
   });
 }
 
-const activate = () => {
+const activate = (event) => {
   loadCSS();
-  toggleMenu();
+  toggleMenu(event);
 
   a11y.querySelectorAll('.a11y-item a').forEach(link => {
     link.addEventListener('click', (event) => {
@@ -52,8 +56,16 @@ const runOption = (el) => {
   }
 }
 
+// Event listeners
 a11yBtn.addEventListener("click", activate);
 a11yBtn.addEventListener("keypress", (e) => {
+  if (e.key === "Enter") {
+    activate();
+  }
+});
+
+a11yMenuItem.addEventListener("click", activate);
+a11yMenuItem.addEventListener("keypress", (e) => {
   if (e.key === "Enter") {
     activate();
   }
@@ -69,11 +81,8 @@ function updateLocalStorage(option, value) {
   }
 }
 
-// This string stores if the toolbar has been opened before
-var firstClick = true
-
 // Open and close the menu
-function toggleMenu() {
+function toggleMenu(event) {
   if (!a11y.classList.contains('a11y-toolbar-open')) {
     a11y.classList.add('a11y-toolbar-open')
     a11y.setAttribute('aria-expanded', 'true')
@@ -96,22 +105,28 @@ function toggleMenu() {
       a11y.querySelector('#a11y-toolbar').style.display = "block"
     }
 
-    if (window.innerWidth >= 900) {
+    if (window.innerWidth >= 900 && !event.target.closest('.menu-item-accessibility')) {
       let rect = a11y.getBoundingClientRect();
       a11y.style.position = 'fixed';
       a11y.style.top = `${rect.top}px`;
       a11y.style.left = `${rect.left}px`;
+    } else if (window.innerWidth >= 769 &&event.target.closest('.menu-item-accessibility') ) {
+      let rect = a11yMenuItem.getBoundingClientRect();
+      a11y.classList.add('opened-from-menu');
+      a11y.style.position = 'fixed';
+      a11y.style.top = `${rect.bottom}px`;
+      a11y.style.left = `${rect.right}px`;
+      a11y.style.width = a11y.querySelector('#a11y-toolbar').offsetWidth + "px"
     }
 
-    if (isElementInViewport(a11y.querySelector('#a11y-toolbar'))) {
+    if (isElementInViewport(a11y.querySelector('#a11y-toolbar')) && event.target.closest('#accessibility') ) {
       a11y.querySelector('#a11y-toolbar').style.left = "calc(100% - 1px)"
     } 
 
   } else {
-    a11y.classList.remove('a11y-toolbar-open')
+    a11y.classList.remove('a11y-toolbar-open', 'opened-from-menu')
     a11y.setAttribute('aria-expanded', 'false')
     a11y.removeAttribute('style')
-
     a11y.querySelector('#a11y-toolbar').style.display = "none"
   }
 }
@@ -137,23 +152,17 @@ function isElementInViewport(element) {
   return !isInViewport;
 }
 
-// This string stores the name of files added till now 
-var filesAdded = false;
-
 // Load CSS file
 function loadCSS() {
-  if (filesAdded === true)
-    return
+  if (cssAdded === true) return;
 
-  // Creating link element 
   let style = document.createElement('link')
   style.href = templateDir + '/a11y.css'
   style.type = 'text/css'
   style.rel = 'stylesheet'
   document.getElementsByTagName('head')[0].append(style)
 
-  // Adding the name of the file to keep record 
-  filesAdded = true
+  cssAdded = true
 }
 
 // Toolbar HTML code

@@ -136,6 +136,20 @@
   img {
     display: block;
   }
+
+  &.opened-from-menu {
+    transform: translateX(-100%);
+    
+    .a11y-toolbar {
+      left: 0;
+      bottom: 100%;
+      transform: translateY(calc(100% + 4px + 1rem));
+    }
+
+    .a11y-button {
+      display: none;
+    }
+  }
 }
 
 .a11y-button {

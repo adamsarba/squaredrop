@@ -48,7 +48,7 @@ header .site-branding img {
           background: var(--black);
         }
 
-        & > li:not(.menu-item-has-children) > a[href*="search"]:hover:after { // hot fix
+        & > li:not(.menu-item-has-children) > a:not([href*="instagram"]):hover:after { // hot fix
           bottom: -5px;
         }
       }
@@ -200,7 +200,7 @@ body:not(.home) header.site-header.header-sticky {
     padding: 10px;
     position: absolute;
     top: 21px;
-    right: 76.5px;
+    right: 123.5px; // 76.5px;
     // background: var(--white);
   }
 }
