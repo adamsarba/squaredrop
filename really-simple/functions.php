@@ -119,15 +119,15 @@ function really_simple_style() {
 
 function really_simple_home() {
   // Global scripts
-  wp_enqueue_script( 'scripts', get_template_directory_uri() . '/js/scripts.js', array(), false, array( 'in_footer' => true, 'strategy'  => 'defer', ) );
+  wp_enqueue_script( 'scripts', get_template_directory_uri() . '/js/scripts.js', array(), wp_get_theme()->get( 'Version' ), array( 'in_footer' => true, 'strategy'  => 'defer', ) );
 
   // Homepage scripts
   if ( is_front_page() && !is_home() ) {
-    wp_enqueue_script( 'front-page-script', get_template_directory_uri() . '/js/front-page.js', array(), false, array( 'in_footer' => true, 'strategy'  => 'defer', ) );
+    wp_enqueue_script( 'front-page-script', get_template_directory_uri() . '/js/front-page.js', array(), wp_get_theme()->get( 'Version' ), array( 'in_footer' => true, 'strategy'  => 'defer', ) );
   }
 
   // a11y scripts
-  wp_enqueue_script( 'a11y-script', get_template_directory_uri() . '/js/a11y.js', array(), false, array( 'in_footer' => true, 'strategy'  => 'defer', ) );
+  wp_enqueue_script( 'a11y-script', get_template_directory_uri() . '/js/a11y.js', array(), wp_get_theme()->get( 'Version' ), array( 'in_footer' => true, 'strategy'  => 'defer', ) );
 
   // a11y localization strings
   $a11y_local = array(
